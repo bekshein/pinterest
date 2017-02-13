@@ -38,6 +38,9 @@ gem 'masonry-rails', '~> 0.2.4'
 # Use for authentication
 gem 'devise', '~> 4.2'
 
+# Use to allow records to be votable
+gem 'acts_as_votable', '~> 0.10.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
