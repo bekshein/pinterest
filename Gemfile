@@ -23,14 +23,17 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# Use for simple form creation
+gem 'simple_form', '~> 3.4'
+
 # Use for bootstrap styling
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
 # Use Paperclip to manage file attachments and uploading
 gem 'paperclip', '~> 5.1'
 
-# Use for simple form creation
-gem 'simple_form', '~> 3.4'
+# Use for Masonry jQuery styling
+gem 'masonry-rails', '~> 0.2.4'
 
 # Use for authentication
 gem 'devise', '~> 4.2'
