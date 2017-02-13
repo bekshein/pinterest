@@ -26,6 +26,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use for bootstrap styling
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
+# Use Paperclip to manage file attachments and uploading
+gem 'paperclip', '~> 5.1'
+
 # Use for simple form creation
 gem 'simple_form', '~> 3.4'
 
