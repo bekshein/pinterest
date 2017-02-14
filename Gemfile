@@ -35,6 +35,9 @@ gem 'paperclip', '~> 5.1'
 # Use for Masonry jQuery styling
 gem 'masonry-rails', '~> 0.2.4'
 
+# Use to fix turbolinks for masonry 
+gem 'jquery-turbolinks', '~> 2.1'
+
 # Use for authentication
 gem 'devise', '~> 4.2'
 
