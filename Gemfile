@@ -35,7 +35,7 @@ gem 'paperclip', '~> 5.1'
 # Use for Masonry jQuery styling
 gem 'masonry-rails', '~> 0.2.4'
 
-# Use to fix turbolinks for masonry 
+# Use to fix turbolinks for masonry
 gem 'jquery-turbolinks', '~> 2.1'
 
 # Use for authentication
@@ -43,6 +43,11 @@ gem 'devise', '~> 4.2'
 
 # Use to allow records to be votable
 gem 'acts_as_votable', '~> 0.10.0'
+
+gem 'rails_12factor', '~> 0.0.3'
+
+# Use to store images to aws
+gem 'aws-sdk', '~> 2.7', '>= 2.7.7'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
